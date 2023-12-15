@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Inline style */
+        .Inline{
+            color: rgb(20, 238, 238);
+        }
+        .internal{
+            color: rgb(0, 255, 17);
+        }
+        .external{
+            color: rgb(255, 0, 195);
+        }
+        .inline__internal{
+            color: brown;
+        }
+        .Internal__External{
+            color: rgb(22, 160, 229);
+        }
+        .inline__internal__External{
+            color: rgb(240, 221, 11);
+        }
+      
+    </style>
+</head>
+<body>
+    <!-- <p>The only difference is that the inline style applies only to the tag to which it is applied, whereas this second code example affects all p tags on your html page.</p> -->
+    <div class="Inline">Inline</div>
+    <div class="internal">Internal</div>
+    <div class="external">External</div>
+    <div class="inline__internal">Inline + Internal</div>
+    <div class="Internal__External">Internal + External</div>
+    <div class="inline__internal__External">Inline + Internal + External</div>
+    
+</body>
+
+</html>

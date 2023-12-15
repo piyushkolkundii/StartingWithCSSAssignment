@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=from, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        color: black;
+    }
+    .Firstname{
+        background-color: aqua;
+    }
+</style>
+<body>
+    <form>
+        <label for="Firstname">First Name:
+        <input type="Firstname" class="Firstname" placeholder="Hitesh" id="Firstname" required minlength=3
+        max=20></label>
+        <br>
+        <br>
+        <label for="Lastname">Last Name:
+        <input type="Lastname" class="Lastname" placeholder="Hitesh" id="Lastname" required minlength=3
+        max=20></label>
+        <br>
+        <br>
+        <label for="email">Email:
+        <input type="email" name="email" placeholder="Hitesh@pwskills" id="email" required >
+    </label>
+        <br>
+        <br>
+        <label for="password">Password:
+        <input type="password" name="password" placeholder="********" id="password" required min="8">
+    </label>
+    <br>
+    <br>
+        <label for="Confirmpassword">ConfirmPassword:
+        <input type="password" name="Confirmpassword" placeholder="********" id="Confirmpassword" required>
+    </label>
+        <br>
+        <br>
+        <label for="Age">Age:
+        <input type="Age" name="Age" placeholder="Enter your age" id="Age" required>
+    </label>
+        <br>
+        <br>
+        <label for="Gender">Gender:
+            <!-- <input type="radio" name=" -->
+            <input type="radio" id="male" value="male" name="gender" checked />
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="female" name="gender" checked />
+            <label for="female">Female</label>
+            <input type="radio" id="Other" value="Other" name="gender" checked />
+            <label for="Other">Other</label>
+        </label>
+        <br>
+        <br>
+        <label for="terms">terms:
+            <input type="checkbox" id="terms" required class="checkbox" /> I agree to terms and
+            conditions
+            </label>
+            <br>
+            <button type="submit">Register</button>
+
+    </form>
+
+</body>
+</html>
